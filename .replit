@@ -107,4 +107,4 @@ ignoredPackages = ["unit_tests"]
   # Enable guessing what packages are needed from the code.
   guessImports = true
 
-run="steamlit run main.py"
+run="streamlit run main.py"
