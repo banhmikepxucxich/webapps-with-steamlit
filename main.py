@@ -13,3 +13,6 @@ st.subheader('steamlit + toast = the steam lit the toast')
 st.write('nice toast bro')
 st.write(df)
 st.line_chart(df)
+
+mySlider = st.slider('Celsius')
+st.write(mySlider, 'in Farenheit is', mySlider * 9/5 + 32)
